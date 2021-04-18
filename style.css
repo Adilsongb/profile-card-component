@@ -1,0 +1,223 @@
+html, body {
+
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg);
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position-y: -24vw;
+    background-position-x: -6vw;
+
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+    min-height: 100%;
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+.container {
+
+    background-image: url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 70%;
+    background-position-y: 25vw;
+    background-position-x: 45vw;
+
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card {
+
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 20%;
+    box-shadow: 0 40px 80px rgb(0, 0, 0, 0.2);
+
+}
+
+/* background cover */
+
+.background-cover {
+
+    border-radius: 20px 20px 0 0;
+    background-color: aquamarine;
+
+}
+
+.background-cover img {
+
+    width: 100%;
+    margin-bottom: -4px;
+    border-radius: 20px 20px 0 0;
+
+}
+
+/* avatar profile */
+
+.profile-img {
+
+    display: flex;
+    justify-content: center;
+    margin-top: -15%;
+
+}
+
+.profile-img img {
+
+    border-radius: 100%;
+    border: 5px solid white;
+    width: 25%;
+
+}
+
+/* title profile */
+
+.title-profile {
+
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.title-profile h1 {
+
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 20px;
+
+}
+
+.title-profile span {
+
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+
+}
+
+/* states profile */
+
+.states-profile {
+
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #dfdfdf;
+
+}
+
+.block-states {
+
+    text-align: center;
+    margin: 0 8%;
+
+}
+
+.statistic {
+
+    display: block;
+    font-weight: 900;
+    font-size:20px;
+    color: hsl(229, 23%, 23%);
+
+}
+
+.title-statistic {
+
+    display: block;
+    font-size: 13px;
+    margin-top: 10px;
+    color: hsl(227, 10%, 46%);
+    letter-spacing: 2px;
+
+}
+
+
+/* Config reponsive */
+
+@media screen and (max-width: 1500px) {
+
+    .card {
+
+        width: 35%;
+    
+    }
+
+    html, body {
+
+        background-position-y: -20vw;
+        background-position-x: -10vw;
+    
+    
+    }
+    
+    .container {
+    
+        background-position-y: 45vw;
+        background-position-x: 45vw;
+    
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+
+    .card {
+
+        width: 60%;
+    
+    }
+
+    html, body {
+
+        background-size: 100%;
+        background-position-y: -35vw;
+        background-position-x: -50vw;
+    
+    
+    }
+    
+    .container {
+        
+        background-size: 100%;
+        background-position-y: 60vw;
+        background-position-x: 45vw;
+    
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+
+    .card {
+
+        width: 90%;
+    
+    }
+
+    html, body {
+
+        background-size: 200%;
+        background-position-y: -80vw;
+        background-position-x: -150vw;
+    
+    
+    }
+    
+    .container {
+    
+        background-size: 200%;
+        background-position-y: 120vw;
+        background-position-x: 35vw;
+    
+    }
+    
+}
